@@ -28,7 +28,7 @@ export default function App() {
             LegaLink360 AI
           </h1>
           <p className="mt-6 text-sm text-slate-600 dark:text-slate-400 text-center max-w-2xl mx-auto">
-            Welcome to LegaLink360 AI by LegaLink & Co. Advocates! I'm your intelligent legal assistant, here to provide guidance on corporate law, civil litigation, mediation, and more.
+            Welcome to LegaLink360 AI by LegaLink & Co. Advocates! I&apos;m your intelligent legal assistant, here to provide guidance on corporate law, civil litigation, mediation, and more.
           </p>
         </div>
         
