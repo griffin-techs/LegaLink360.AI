@@ -7,15 +7,22 @@ export const CREATE_SESSION_ENDPOINT = "/api/create-session";
 
 export const STARTER_PROMPTS: StartScreenPrompt[] = [
   {
-    label: "What can you do?",
-    prompt: "What can you do?",
-    icon: "circle-question",
+    label: "What legal services do you offer?",
+    prompt: "What legal services does LegaLink360 offer?",
+  },
+  {
+    label: "How can you help me?",
+    prompt: "How can LegaLink360 AI assist with my legal questions?",
+  },
+  {
+    label: "Schedule a consultation",
+    prompt: "How do I schedule a consultation with LegaLink360?",
   },
 ];
 
-export const PLACEHOLDER_INPUT = "Ask anything...";
+export const PLACEHOLDER_INPUT = "Ask your legal question...";
 
-export const GREETING = "How can I help you today?";
+export const GREETING = "Welcome to LegaLink360 AI by LegaLink & Co. Advocates! I'm your intelligent legal assistant, here to provide guidance on corporate law, civil litigation, mediation, and more. How can I assist you today?";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {
