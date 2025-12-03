@@ -22,7 +22,7 @@ export const STARTER_PROMPTS: StartScreenPrompt[] = [
 
 export const PLACEHOLDER_INPUT = "Ask your legal question...";
 
-export const GREETING = "Welcome to LegaLink360 AI by LegaLink & Co. Advocates! I'm your intelligent legal assistant, here to provide guidance on corporate law, civil litigation, mediation, and more. How can I assist you today?";
+export const GREETING = "How can I assist you today?";
 
 export const getThemeConfig = (theme: ColorScheme): ThemeOption => ({
   color: {

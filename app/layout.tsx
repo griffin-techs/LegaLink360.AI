@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "LegaLink360 AI - Your Legal Assistant",
+  title: "LegaLink360 AI",
   description: "Your intelligent legal assistant by LegaLink & Co. Advocates - providing accessible legal guidance and support.",
   other: {
     "openai-domain-verification": process.env.NEXT_PUBLIC_OPENAI_DOMAIN_VERIFICATION || "",
