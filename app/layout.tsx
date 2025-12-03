@@ -5,6 +5,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "AgentKit demo",
   description: "Demo of ChatKit with hosted workflow",
+  other: {
+    "openai-domain-verification": process.env.NEXT_PUBLIC_OPENAI_DOMAIN_VERIFICATION || "",
+  },
 };
 
 export default function RootLayout({
